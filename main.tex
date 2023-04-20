@@ -1,0 +1,105 @@
+% Main content writing
+
+\documentclass{article}
+\input{header}
+
+\begin{document}
+
+% ------------------------------------------------------------------------------
+% Title, Subtitle and Author settings
+% ------------------------------------------------------------------------------
+
+\title{Place Your Project Title at Here}
+\author{\textup{Your Name}}
+
+\begin{titlepage}
+	\centering
+	\includegraphics[width=0.8\linewidth]{./fig/ZJU logo.png}\\[1cm]
+
+	\center
+	\quad\\[1.5cm]
+
+	\textsl{\Large Zhejiang University}\\[0.5cm] 
+	\textsl{\large School of Electrical Engineering}\\[0.5cm] 
+	
+	\makeatletter
+	\HRule{2.0pt} \\[0.5cm]
+	{\huge \bfseries \@title} \\[0.5cm] 
+	\HRule{2.0pt} \\[1.5cm]
+
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushleft} 
+			\large \emph{Author:} \@author \\
+            \large \emph{Student ID:} \textup{XXXXXXXX} \\
+            \large \emph{Email:} \textup{XXXXXXXX@zju.edu.cn}
+		\end{flushleft}
+	\end{minipage}\\[4cm]
+
+	\makeatother
+	{\large An Assignment submitted for the Course:}\\[0.5cm]
+	{\large \emph{Course Name}}\\[0.5cm]
+	{\large \today}\\[2cm] 
+	\vfill 
+\end{titlepage}
+\newpage
+
+% ------------------------------------------------------------------------------
+% Table of Contents
+% ------------------------------------------------------------------------------
+
+\tableofcontents
+\newpage
+
+% ------------------------------------------------------------------------------
+% Main Content
+% ------------------------------------------------------------------------------
+
+\section{Examples}
+
+\subsection{Test}
+
+\subsubsection{Part}
+
+\paragraph{A}
+
+\subparagraph{A-1}
+
+\begin{theorem}
+    This is a theorem.
+\end{theorem}
+
+\begin{proposition}
+    This is a proposition.
+\end{proposition}
+
+\begin{principle}
+    This is a principle.
+\end{principle}
+
+\subsection{Pictures}
+
+This is a test of adding Pictures \ref{fig.Sydney}.
+
+\begin{figure}[htbp]
+    \center
+    \includegraphics[width=\linewidth]{fig/photo.jpg}
+    \caption{Sydney}
+	\label{fig.Sydney}
+\end{figure}
+
+\subsection{Citation}
+
+This is a citation\cite{Eg}.
+
+\newpage
+
+% ------------------------------------------------------------------------------
+% Reference and Cited Works
+% ------------------------------------------------------------------------------
+
+\bibliographystyle{IEEEtran}
+\bibliography{References.bib}
+
+% ------------------------------------------------------------------------------
+
+\end{document}
