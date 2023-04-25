@@ -17,31 +17,34 @@
 	\includegraphics[width=0.8\linewidth]{./fig/ZJU logo.png}\\[1cm]
 
 	\center
-	\quad\\[1.5cm]
+	\quad	\\[1.5cm]
 
-	\textsl{\Large Zhejiang University}\\[0.5cm] 
+	\textsl{\Large Zhejiang University}				\\[0.5cm] 
 	\textsl{\large School of Electrical Engineering}\\[0.5cm] 
 	
 	\makeatletter
-	\HRule{2.0pt} \\[0.5cm]
-	{\huge \bfseries \@title} \\[0.5cm] 
-	\HRule{2.0pt} \\[1.5cm]
+	\HRule{2.0pt} 				\\[0.5cm]
+	{\huge \bfseries \@title} 	\\[0.4cm] 
+	\HRule{2.0pt} 				\\[1.5cm]
 
-	\begin{minipage}{0.4\textwidth}
-		\begin{flushleft} 
-			\large \emph{Author:} \@author \\
-            \large \emph{Student ID:} \textup{XXXXXXXX} \\
-            \large \emph{Email:} \textup{XXXXXXXX@zju.edu.cn}
-		\end{flushleft}
-	\end{minipage}\\[4cm]
+	\begin{minipage}{\textwidth}
+		\center
+		\begin{tabular}{lc}
+			\large \emph{\textbf{Author}}        & \@author                        \\
+			\large \emph{\textbf{Student ID}}    & \textup{22260281}               \\
+			\large \emph{\textbf{Email}}         & \textup{qidizhong@zju.edu.cn}   \\
+			\large \emph{\textbf{Institution}}   & \textup{Polytechnic Institute of Zhejiang University}
+		\end{tabular}
+	\end{minipage}	\\[4cm]
 
 	\makeatother
-	{\large An Assignment submitted for the Course:}\\[0.5cm]
-	{\large \emph{Course Name}}\\[0.5cm]
-	{\large \today}\\[2cm] 
+	{\large An Assignment submitted for the Course:}	\\[0.5cm]
+	{\Large \emph{\textbf{Your Course Name}}}		\\[0.5cm]
+	{\large \today}										\\[2cm] 
 	\vfill 
 \end{titlepage}
 \newpage
+
 
 % ------------------------------------------------------------------------------
 % Table of Contents
@@ -60,10 +63,6 @@
 
 \subsubsection{Part}
 
-\paragraph{A}
-
-\subparagraph{A-1}
-
 \begin{theorem}
     This is a theorem.
 \end{theorem}
@@ -78,16 +77,18 @@
 
 \subsection{Pictures}
 
-This is a test of adding Pictures \ref{fig.Sydney}.
+This is a test of adding Pictures \ref{fig.photo}.
 
 \begin{figure}[htbp]
     \center
-    \includegraphics[width=\linewidth]{fig/photo.jpg}
-    \caption{Sydney}
-	\label{fig.Sydney}
+    \includegraphics[width=0.4\linewidth]{fig/photo.jpg}
+    \caption{Zhejiang University}
+	\label{fig.photo}
 \end{figure}
 
 \subsection{Citation}
+
+\paragraph{A}
 
 This is a citation\cite{Eg}.
 
