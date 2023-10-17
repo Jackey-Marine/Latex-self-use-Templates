@@ -9,7 +9,7 @@
 %%%% 定义标题格式，包括title，author，affiliation，email等 %%%%
 \title{\yihao{这里是大标题啊}}
 \author{\xiaoerhao{作者姓名}\footnote{电子邮件: ***@***.com，学号: ***}\\[2ex]
-\sanhao 浙江大学工程师学院\\[2ex]
+\sanhao 浙江大学XXX学院\\[2ex]
 }
 \date{\sanhao\today}
 \maketitle
@@ -63,7 +63,7 @@ keyword1, keyword2, keyword3
 图\ref{Fig.main}如下所示：
 \begin{figure}[H] %H为当前位置，!htb为忽略美学标准，htbp为浮动图形
 \centering %图片居中
-\includegraphics[width=0.8\textwidth]{example1.jpeg} %插入图片，[]中设置图片大小，{}中是图片文件名
+\includegraphics[width=0.8\textwidth]{./Figure/example1.jpeg} %插入图片，[]中设置图片大小，{}中是图片文件名
 \caption{Main name} %最终文档中希望显示的图片标题
 \label{Fig.main} %用于文内引用的标签
 \end{figure}
@@ -91,13 +91,13 @@ Sarah Brightman& 002& Female\\
     \centering  %图片全局居中
     \subfigure[name1]{
     \label{Fig.sub.1}
-    \includegraphics[width=0.3\textwidth]{example1.jpeg}}
+    \includegraphics[width=0.3\textwidth]{./Figure/example1.jpeg}}
     \subfigure[name2]{
     \label{Fig.sub.2}
-    \includegraphics[width=0.3\textwidth]{example2.jpeg}}
+    \includegraphics[width=0.3\textwidth]{./Figure/example2.jpeg}}
     \subfigure[name3]{
     \label{Fig.sub.3}
-    \includegraphics[width=0.3\textwidth]{example3.jpeg}}
+    \includegraphics[width=0.3\textwidth]{./Figure/example3.jpeg}}
     \caption{Main name}
     \label{Fig.main}
 \end{figure}

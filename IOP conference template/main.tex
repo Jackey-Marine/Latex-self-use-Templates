@@ -1,0 +1,83 @@
+%This is a template for the IOP Conference Series
+%Please read the guidelines avaliable through the IOP website: http://conferenceseries.iop.org/content/authors
+%This template has been produced from their guidlines document
+\documentclass[a4paper]{jpconf} % letterpaper could be used instead of a4paper
+\usepackage{graphicx}
+\begin{document}
+%You can use \jpcs to insert 'Journal of Physics: Conference Series' in italics
+\title{Title goes here}
+
+\author{Author goes here}
+
+\address{Address goes here}
+
+\ead{e-mail goes here}
+
+\begin{abstract}%you must include an abstract
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+\end{abstract}
+
+\section{Introduction}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\section{Example of a Table}
+
+\begin{center}
+    \begin{table}[h]
+        \caption{caption goes here}
+        \centering
+        \begin{tabular}{@{}l*{7}{l}}
+            \br
+            left title&centre title&right title\\
+            \mr
+            entry 1&entry 2&entry 3\\
+            entry 4&entry 5&entry 6\\
+            \br
+        \end{tabular}
+    \end{table}
+\end{center}
+
+\section{Example of entering code}
+\begin{verbatim}
+insert code here
+\end{verbatim}
+
+\section{Insert scetion title}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim\cite{ref1} veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+\subsection{Numbered list example}
+\begin{enumerate}
+    \item First item
+    \item Second item
+    \item Third item
+    \item Fourth item
+    \item Fifth item
+\end{enumerate}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\cite{ref2} consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+\subsection{Inserting figures example}
+\begin{figure}[h]
+    \begin{minipage}{14pc}
+        \includegraphics[width=10pc]{lion-128.png}
+        \caption{Figure caption for first of two sided figures.}
+    \end{minipage}\hspace{2pc}
+    \begin{minipage}{14pc}
+        \includegraphics[width=10pc]{lion-128.png}
+        \caption{Figure caption for sec-ond of two sided figures.}
+    \end{minipage} 
+\end{figure}
+
+\ack%this is an unnumbered acknowledgement section
+Insert acknowledgements here
+ 
+\section*{Appendix}
+Insert Appendix here
+
+\section*{References}
+\begin{thebibliography}{9}
+    \bibitem{ref1} Reference 1 goes here
+    \bibitem{ref2} Reference 2 goes here
+\end{thebibliography}
+
+\end{document}
